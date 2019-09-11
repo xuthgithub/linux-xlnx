@@ -171,6 +171,9 @@ enum pm_ioctl_id {
 	/* Probe counter read/write */
 	IOCTL_PROBE_COUNTER_READ,
 	IOCTL_PROBE_COUNTER_WRITE,
+	IOCTL_OSPI_MUX_SELECT,
+	/* IOCTL for USB power request */
+	IOCTL_USB_SET_STATE,
 };
 
 enum pm_query_id {
